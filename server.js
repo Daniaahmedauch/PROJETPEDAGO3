@@ -1,8 +1,6 @@
 const express = require('express')
 const app = express()
 
-
-app.use(express.static('public'));
 app.use('/jquery', express.static(__dirname + '/node_modules/jquery/dist'));
 app.use('/bootstrap', express.static(__dirname + '/node_modules/bootstrap/dist/'));
 
