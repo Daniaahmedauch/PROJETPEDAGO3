@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 	
 app.use('/jquery', express.static(__dirname + '/node_modules/jquery/dist'));
-app.use('/bootstrap', express.static(__dirname + '/node_modules/bootstrap/dist/'));
+app.use('/bootstrap', express.static(__dirname + '/node_modules/bootstrap/dist'));
 
 app.get('/', function (req, res) {
   res.send('Hello World!')
