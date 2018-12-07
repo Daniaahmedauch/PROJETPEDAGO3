@@ -33,7 +33,7 @@ function checkDB(tx)
 function populateDB(tx)
 {
     // tx.executeSql('DROP TABLE IF EXISTS categories');
-    tx.executeSql('CREATE TABLE "categories" ( `category_id` INTEGER PRIMARY KEY AUTOINCREMENT, `category_name` TEXT)');
+    tx.executeSql('CREATE TABLE IF NOT EXISTS "categories" ( `category_id` INTEGER PRIMARY KEY AUTOINCREMENT, `category_name` TEXT)');
     tx.executeSql('INSERT INTO categories (category_id, category_name) VALUES (1, "aliments")');
     // tx.executeSql('INSERT INTO DEMO (id, data) VALUES (2, "Second row")');
 }
