@@ -9,6 +9,12 @@
   "installed_plugins": {
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "io.cordova.hellocordova"
+    },
+    "cordova-sqlite-plugin": {
+      "PACKAGE_NAME": "io.cordova.comvisuelle"
+    },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "io.cordova.comvisuelle"
     }
   },
   "dependent_plugins": {}
