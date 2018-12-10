@@ -32,7 +32,6 @@ function checkDB(tx)
 
 function populateDB(tx)
 {
-<<<<<<< HEAD
     // tx.executeSql('DROP TABLE IF EXISTS categories');
     // tx.executeSql('CREATE TABLE IF NOT EXISTS "categories" ( `category_id` INTEGER PRIMARY KEY AUTOINCREMENT, `category_name` TEXT)');
     // tx.executeSql('INSERT INTO categories (category_id, category_name) VALUES (1, "aliments")');
@@ -249,7 +248,6 @@ function populateDB(tx)
     tx.executeSql("INSERT INTO `categories` VALUES (19,'intéractions avec pros','','')");
     tx.executeSql("INSERT INTO `categories` VALUES (20,'émotions','','')");
     tx.executeSql("INSERT INTO `categories` VALUES (21,'états','','')");
-=======
 
     tx.executeSql('CREATE TABLE IF NOT EXISTS "categories" ( `category_id` INTEGER PRIMARY KEY AUTOINCREMENT, `category_name` TEXT)');
 
@@ -273,7 +271,6 @@ function populateDB(tx)
     tx.executeSql('INSERT INTO `categories` VALUES (19,'intéractions avec pros','','')');
     tx.executeSql('INSERT INTO `categories` VALUES (20,'émotions','','')');
     tx.executeSql('INSERT INTO `categories` VALUES (21,'états','','')');
->>>>>>> e9219a8d0644919ce8de73b2c2c62f02be77056f
 }
 
 
