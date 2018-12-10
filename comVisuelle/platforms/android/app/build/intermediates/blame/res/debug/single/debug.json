@@ -1,19 +1,19 @@
 [
     {
-        "merged": "/home/luc/Documents/simplon/projetLuc/pedagoCordova/comVisuelle/platforms/android/app/build/intermediates/res/merged/debug/drawable-port-xhdpi_screen.png.flat",
-        "source": "/home/luc/Documents/simplon/projetLuc/pedagoCordova/comVisuelle/platforms/android/app/src/main/res/drawable-port-xhdpi/screen.png"
-    },
-    {
         "merged": "/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/build/intermediates/res/merged/debug/mipmap-hdpi_icon.png.flat",
         "source": "/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/src/main/res/mipmap-hdpi/icon.png"
     },
     {
-        "merged": "/home/luc/Documents/simplon/projetLuc/pedagoCordova/comVisuelle/platforms/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_icon.png.flat",
-        "source": "/home/luc/Documents/simplon/projetLuc/pedagoCordova/comVisuelle/platforms/android/app/src/main/res/mipmap-xxhdpi/icon.png"
+        "merged": "/home/luc/Documents/simplon/projetLuc/pedagoCordova/comVisuelle/platforms/android/app/build/intermediates/res/merged/debug/drawable-port-xhdpi_screen.png.flat",
+        "source": "/home/luc/Documents/simplon/projetLuc/pedagoCordova/comVisuelle/platforms/android/app/src/main/res/drawable-port-xhdpi/screen.png"
     },
     {
         "merged": "/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_icon.png.flat",
         "source": "/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/src/main/res/mipmap-xxhdpi/icon.png"
+    },
+    {
+        "merged": "/home/luc/Documents/simplon/projetLuc/pedagoCordova/comVisuelle/platforms/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_icon.png.flat",
+        "source": "/home/luc/Documents/simplon/projetLuc/pedagoCordova/comVisuelle/platforms/android/app/src/main/res/mipmap-xxhdpi/icon.png"
     },
     {
         "merged": "/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/build/intermediates/res/merged/debug/drawable-port-hdpi_screen.png.flat",
