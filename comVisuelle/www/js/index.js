@@ -23,7 +23,7 @@ function checkDB(tx)
 {
     tx.executeSql('SELECT * FROM categories;', [], function(tx, result){
         console.log('acces effectue');
-        console.log(result.rows[0]);
+        console.log(result.rows);
     });
 }
 
@@ -32,6 +32,7 @@ function checkDB(tx)
 
 function populateDB(tx)
 {
+<<<<<<< HEAD
     // tx.executeSql('DROP TABLE IF EXISTS categories');
     // tx.executeSql('CREATE TABLE IF NOT EXISTS "categories" ( `category_id` INTEGER PRIMARY KEY AUTOINCREMENT, `category_name` TEXT)');
     // tx.executeSql('INSERT INTO categories (category_id, category_name) VALUES (1, "aliments")');
@@ -248,6 +249,31 @@ function populateDB(tx)
     tx.executeSql("INSERT INTO `categories` VALUES (19,'intéractions avec pros','','')");
     tx.executeSql("INSERT INTO `categories` VALUES (20,'émotions','','')");
     tx.executeSql("INSERT INTO `categories` VALUES (21,'états','','')");
+=======
+
+    tx.executeSql('CREATE TABLE IF NOT EXISTS "categories" ( `category_id` INTEGER PRIMARY KEY AUTOINCREMENT, `category_name` TEXT)');
+
+    tx.executeSql('INSERT INTO `categories` VALUES (2,'aliments','','')');
+    tx.executeSql('INSERT INTO `categories` VALUES (3,'actions','','')');
+    tx.executeSql('INSERT INTO `categories` VALUES (4,'activités','','')');
+    tx.executeSql('INSERT INTO `categories` VALUES (5,'hygiène','','')');
+    tx.executeSql('INSERT INTO `categories` VALUES (6,'santé','','')');
+    tx.executeSql('INSERT INTO `categories` VALUES (7,'sorties','','')');
+    tx.executeSql('INSERT INTO `categories` VALUES (8,'loisirs','','')');
+    tx.executeSql('INSERT INTO `categories` VALUES (9,'humeurs','','')');
+    tx.executeSql('INSERT INTO `categories` VALUES (10,'temps','','')');
+    tx.executeSql('INSERT INTO `categories` VALUES (11,'interdit','','')');
+    tx.executeSql('INSERT INTO `categories` VALUES (12,'intéractions','','')');
+    tx.executeSql('INSERT INTO `categories` VALUES (13,'sports','','')');
+    tx.executeSql('INSERT INTO `categories` VALUES (14,'lieux','','')');
+    tx.executeSql('INSERT INTO `categories` VALUES (15,'évènements','','')');
+    tx.executeSql('INSERT INTO `categories` VALUES (16,'objets','','')');
+    tx.executeSql('INSERT INTO `categories` VALUES (17,'habits','','')');
+    tx.executeSql('INSERT INTO `categories` VALUES (18,'gestes','','')');
+    tx.executeSql('INSERT INTO `categories` VALUES (19,'intéractions avec pros','','')');
+    tx.executeSql('INSERT INTO `categories` VALUES (20,'émotions','','')');
+    tx.executeSql('INSERT INTO `categories` VALUES (21,'états','','')');
+>>>>>>> e9219a8d0644919ce8de73b2c2c62f02be77056f
 }
 
 
