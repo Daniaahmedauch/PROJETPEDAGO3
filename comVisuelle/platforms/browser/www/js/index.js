@@ -1,62 +1,53 @@
-window.onload = function(){
-    var motsClefs = [
-        'repas ',
-        'evenement',
-        'danser',
-        'chaussure',
-        'noel',
-        'paques',
-        'non',
-        'oui'
-    ];
-    
-    var form = document.getElementById("searchthis");
-    var input = form.search;
-    
-    var list = document.createElement("ul");
-    list.className = "suggestions";
-    list.style.display = "none";
+document.addEventListener('deviceready', start, false);
 
-    form.appendChild(list);
 
-    input.onkeyup = function(){
-        var txt = this.value;
-        if(!txt){
-            list.style.display = "none";
-            return;
-        }
-        
-        var suggestions = 0;
-        var frag = document.createDocumentFragment();
-        
-        for(var i = 0, c = motsClefs.length; i < c; i++){
-            if(new RegExp("^"+txt,"i").test(motsClefs[i])){
-                var word = document.createElement("li");
-                frag.appendChild(word);
-                word.innerHTML = motsClefs[i].replace(new RegExp("^("+txt+")","i"),"<strong>$1</strong>");
-                word.mot = motsClefs[i];
-                word.onmousedown = function(){                  
-                    input.focus();
-                    input.value = this.mot;
-                    list.style.display = "none";
-                    return false;
-                };              
-                suggestions++;
-            }
-        }
+var db;
 
-        if(suggestions){
-            list.innerHTML = "";
-            list.appendChild(frag);
-            list.style.display = "block";
-        }
-        else {
-            list.style.display = "none";            
-        }
-    };
 
-    input.onblur = function(){
-        list.style.display = "none";    
-    };
-};
 
+function start()
+{
+    db = window.openDatabase("Database", "1.0", "Cordova Demo", 200000);
+    db.transaction(populateDB, errorCB, successCB);
+
+    $('#orel').on("click", check);
+}    
+
+
+
+function check()
+{
+    console.log('essai acces DB');
+    db.transaction(checkDB, errorCB, successCB);
+}
+
+function checkDB(tx)
+{
+    tx.executeSql('SELECT * FROM DEMO;', [], function(tx, result){
+        console.log('acces effectue');
+        console.log(result.rows[0]);
+    });
+}
+
+
+
+
+function populateDB(tx)
+{
+    tx.executeSql('DROP TABLE IF EXISTS DEMO');
+    tx.executeSql('CREATE TABLE IF NOT EXISTS DEMO (id unique, data)');
+    tx.executeSql('INSERT INTO DEMO (id, data) VALUES (1, "First row")');
+    tx.executeSql('INSERT INTO DEMO (id, data) VALUES (2, "Second row")');
+}
+
+
+function errorCB(tx, err)
+{
+    alert("Error processing SQL: "+err);
+}
+
+
+function successCB()
+{
+    alert("success!");
+}
