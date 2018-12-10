@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Dec 10 09:34:27 CET 2018
+#Mon Dec 10 10:03:18 CET 2018
 20.base=/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/build/intermediates/assets/debug
 143.base=/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/build/intermediates/assets/debug
 237.path=www/node_modules/jquery/src/core/toType.js
@@ -111,7 +111,7 @@
 366.baseType=DIRECTORY
 394.baseType=DIRECTORY
 281.path=www/node_modules/bootstrap/scss/_list-group.scss
-452.path=www/node_modules/popper.js/dist/popper-utils.min.js.map
+452.path=www/node_modules/bootstrap/scss/_alert.scss
 372.baseType=DIRECTORY
 455.set=ASSET
 12.path=www/node_modules/popper.js/dist/umd/popper-utils.js.map
@@ -133,7 +133,7 @@
 27.base=/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/build/intermediates/assets/debug
 432.set=ASSET
 387.set=ASSET
-442.path=www/node_modules/jquery/src/var/toString.js
+442.path=www/images/chaussures.JPG
 310.set=ASSET
 178.baseType=DIRECTORY
 211.base=/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/build/intermediates/assets/debug
@@ -157,7 +157,7 @@
 210.set=ASSET
 165.set=ASSET
 115.path=www/node_modules/jquery/src/core/stripAndCollapse.js
-465.path=www/node_modules/jquery/src/ajax/parseXML.js
+465.path=www/node_modules/jquery/src/manipulation/var/rtagName.js
 371.base=/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/build/intermediates/assets/debug
 201.base=/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/build/intermediates/assets/debug
 25.path=www/node_modules/bootstrap/js/dist/button.js.map
@@ -219,7 +219,7 @@
 288.path=www/node_modules/bootstrap/js/dist/scrollspy.js
 71.base=/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/build/intermediates/assets/debug
 195.set=ASSET
-459.path=www/node_modules/bootstrap/scss/_variables.scss
+459.path=www/images/mort.JPG
 436.baseType=DIRECTORY
 464.baseType=DIRECTORY
 47.set=ASSET
@@ -235,7 +235,7 @@
 322.base=/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/build/intermediates/assets/debug
 184.base=/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/build/intermediates/assets/debug
 278.path=www/node_modules/bootstrap/dist/css/bootstrap-reboot.min.css.map
-449.path=www/node_modules/bootstrap/scss/utilities/_visibility.scss
+449.path=www/images/le marché.JPG
 380.set=ASSET
 24.set=ASSET
 94.base=/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/build/intermediates/assets/debug
@@ -252,7 +252,7 @@
 179.baseType=DIRECTORY
 307.baseType=DIRECTORY
 174.base=/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/build/intermediates/assets/debug
-439.path=www/package.json
+439.path=www/node_modules/bootstrap/js/src/index.js
 345.base=/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/build/intermediates/assets/debug
 335.baseType=DIRECTORY
 280.set=ASSET
@@ -333,7 +333,7 @@
 115.set=ASSET
 78.base=/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/build/intermediates/assets/debug
 110.path=www/images/pâté.JPG
-460.path=www/node_modules/bootstrap/scss/_root.scss
+460.path=www/node_modules/bootstrap/scss/_variables.scss
 143.path=www/node_modules/bootstrap/scss/utilities/_clearfix.scss
 20.path=www/images/courses.JPG
 413.set=ASSET
@@ -382,7 +382,7 @@
 71.set=ASSET
 322.set=ASSET
 260.path=www/images/gateau yaourt.JPG
-431.path=www/node_modules/jquery/src/attributes/attr.js
+431.path=www/images/cinéma.JPG
 249.baseType=DIRECTORY
 277.baseType=DIRECTORY
 405.baseType=DIRECTORY
@@ -416,7 +416,7 @@
 421.path=www/node_modules/jquery/src/manipulation/support.js
 100.set=ASSET
 283.path=www/node_modules/jquery/src/core/camelCase.js
-454.path=www/node_modules/bootstrap/LICENSE
+454.path=www/node_modules/bootstrap/scss/_grid.scss
 14.path=www/node_modules/jquery/src/attributes/support.js
 317.path=www/node_modules/popper.js/README.md
 223.base=/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/build/intermediates/assets/debug
@@ -440,7 +440,7 @@
 126.baseType=DIRECTORY
 154.baseType=DIRECTORY
 273.path=www/images/interdit.JPG
-444.path=www/images/écouter musique.JPG
+444.path=www/node_modules/bootstrap/js/dist/tab.js
 350.base=/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/build/intermediates/assets/debug
 330.set=ASSET
 310.baseType=DIRECTORY
@@ -490,6 +490,7 @@
 438.baseType=DIRECTORY
 259.base=/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/build/intermediates/assets/debug
 20.baseType=DIRECTORY
+466.baseType=DIRECTORY
 371.path=www/node_modules/bootstrap/scss/_type.scss
 201.path=www/node_modules/jquery/src/data/var/acceptData.js
 184.set=ASSET
@@ -520,7 +521,7 @@
 257.path=www/node_modules/bootstrap/js/dist/collapse.js.map
 40.base=/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/build/intermediates/assets/debug
 163.base=/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/build/intermediates/assets/debug
-428.path=www/node_modules/bootstrap/scss/utilities/_position.scss
+428.path=www/js/function.js
 73.base=/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/build/intermediates/assets/debug
 309.baseType=DIRECTORY
 159.baseType=DIRECTORY
@@ -626,7 +627,7 @@
 257.set=ASSET
 135.set=ASSET
 112.path=www/node_modules/bootstrap/scss/_input-group.scss
-462.path=www/node_modules/bootstrap/scss/_buttons.scss
+462.path=www/images/psychologue.JPG
 22.path=www/images/la ferme.JPG
 145.path=www/node_modules/popper.js/dist/popper.min.js.map
 231.base=/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/build/intermediates/assets/debug
@@ -680,7 +681,7 @@
 91.set=ASSET
 342.set=ASSET
 262.path=www/images/haricots blancs.JPG
-433.path=www/node_modules/popper.js/dist/esm/popper-utils.min.js
+433.path=www/form_html.html
 295.path=www/node_modules/jquery/src/serialize.js
 265.set=ASSET
 125.path=www/images/jambon blanc.JPG
@@ -709,7 +710,7 @@
 221.baseType=DIRECTORY
 191.base=/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/build/intermediates/assets/debug
 285.path=www/images/théâtre.JPG
-456.path=www/images/prise de sang.JPG
+456.path=www/node_modules/bootstrap/dist/css/bootstrap.min.css
 16.path=www/node_modules/bootstrap/scss/_progress.scss
 148.path=www/images/frites.JPG
 319.path=www/node_modules/jquery/src/selector.js
@@ -727,7 +728,7 @@
 413.path=www/node_modules/bootstrap/scss/utilities/_text.scss
 181.base=/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/build/intermediates/assets/debug
 275.path=www/images/hamburger.JPG
-446.path=www/node_modules/bootstrap/js/dist/button.js
+446.path=www/node_modules/jquery/src/css/addGetHookIf.js
 352.base=/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/build/intermediates/assets/debug
 350.set=ASSET
 91.base=/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/build/intermediates/assets/debug
@@ -743,7 +744,7 @@
 22.baseType=DIRECTORY
 48.set=ASSET
 171.base=/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/build/intermediates/assets/debug
-436.path=www/node_modules/jquery/src/core/parseHTML.js
+436.path=www/node_modules/bootstrap/scss/_images.scss
 342.base=/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/build/intermediates/assets/debug
 250.set=ASSET
 119.path=www/node_modules/jquery/dist/jquery.slim.min.js
@@ -882,7 +883,7 @@
 147.set=ASSET
 339.base=/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/build/intermediates/assets/debug
 280.path=www/images/fini.JPG
-451.path=www/node_modules/bootstrap/scss/_alert.scss
+451.path=www/node_modules/bootstrap/scss/mixins/_lists.scss
 378.baseType=DIRECTORY
 445.set=ASSET
 11.path=www/images/s'allonger.JPG
@@ -896,6 +897,7 @@
 246.set=ASSET
 124.set=ASSET
 116.base=/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/build/intermediates/assets/debug
+466.base=/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/build/intermediates/assets/debug
 409.baseType=DIRECTORY
 259.baseType=DIRECTORY
 287.baseType=DIRECTORY
@@ -905,7 +907,7 @@
 422.set=ASSET
 59.base=/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/build/intermediates/assets/debug
 377.set=ASSET
-441.path=www/images/chaussures.JPG
+441.path=www/node_modules/jquery/src/core/nodeName.js
 300.set=ASSET
 210.base=/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/build/intermediates/assets/debug
 223.set=ASSET
@@ -930,7 +932,7 @@
 227.baseType=DIRECTORY
 114.path=www/node_modules/jquery/src/queue.js
 255.baseType=DIRECTORY
-464.path=www/node_modules/jquery/src/manipulation/var/rtagName.js
+464.path=www/node_modules/popper.js/dist/esm/popper.js
 370.base=/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/build/intermediates/assets/debug
 9.set=ASSET
 411.baseType=DIRECTORY
@@ -998,7 +1000,7 @@
 70.base=/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/build/intermediates/assets/debug
 185.set=ASSET
 287.path=www/node_modules/bootstrap/scss/_dropdown.scss
-458.path=www/images/mort.JPG
+458.path=www/node_modules/bootstrap/dist/css/bootstrap.css
 448.baseType=DIRECTORY
 30.baseType=DIRECTORY
 227.base=/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/build/intermediates/assets/debug
@@ -1013,7 +1015,7 @@
 385.baseType=DIRECTORY
 183.base=/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/build/intermediates/assets/debug
 277.path=www/node_modules/bootstrap/scss/mixins/_resize.scss
-448.path=www/images/le marché.JPG
+448.path=www/node_modules/bootstrap/scss/_tooltip.scss
 370.set=ASSET
 14.set=ASSET
 93.base=/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/build/intermediates/assets/debug
@@ -1029,7 +1031,7 @@
 319.set=ASSET
 311.base=/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/build/intermediates/assets/debug
 173.base=/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/build/intermediates/assets/debug
-438.path=www/node_modules/bootstrap/js/src/index.js
+438.path=www/node_modules/jquery/src/manipulation/setGlobalEval.js
 344.base=/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/build/intermediates/assets/debug
 270.set=ASSET
 319.baseType=DIRECTORY
@@ -1157,7 +1159,7 @@
 318.base=/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/build/intermediates/assets/debug
 61.set=ASSET
 312.set=ASSET
-430.path=www/images/cinéma.JPG
+430.path=www/node_modules/jquery/src/attributes/val.js
 292.path=www/images/purée.JPG
 235.set=ASSET
 289.baseType=DIRECTORY
@@ -1188,7 +1190,7 @@
 382.baseType=DIRECTORY
 360.baseType=DIRECTORY
 282.path=www/node_modules/jquery/src/queue/delay.js
-453.path=www/node_modules/bootstrap/scss/_grid.scss
+453.path=www/node_modules/popper.js/dist/popper-utils.min.js.map
 465.set=ASSET
 13.path=www/node_modules/bootstrap/js/dist/alert.js.map
 316.path=www/node_modules/bootstrap/package.json
@@ -1212,7 +1214,7 @@
 442.set=ASSET
 397.set=ASSET
 96.baseType=DIRECTORY
-443.path=www/node_modules/bootstrap/js/dist/tab.js
+443.path=www/node_modules/jquery/src/var/toString.js
 320.set=ASSET
 138.baseType=DIRECTORY
 166.baseType=DIRECTORY
@@ -1235,6 +1237,7 @@
 297.set=ASSET
 220.set=ASSET
 116.path=www/images/merci.JPG
+466.path=www/node_modules/jquery/src/ajax/parseXML.js
 372.base=/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/build/intermediates/assets/debug
 202.base=/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/build/intermediates/assets/debug
 58.baseType=DIRECTORY
@@ -1411,7 +1414,7 @@
 125.set=ASSET
 79.base=/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/build/intermediates/assets/debug
 111.path=www/node_modules/bootstrap/scss/_custom-forms.scss
-461.path=www/images/psychologue.JPG
+461.path=www/node_modules/bootstrap/scss/_root.scss
 144.path=www/images/brocolis.JPG
 21.path=www/images/asperges vinaigrette.JPG
 230.base=/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/build/intermediates/assets/debug
@@ -1466,7 +1469,7 @@
 265.baseType=DIRECTORY
 293.baseType=DIRECTORY
 261.path=www/images/se doucher.JPG
-432.path=www/form_html.html
+432.path=www/node_modules/jquery/src/attributes/attr.js
 421.baseType=DIRECTORY
 271.baseType=DIRECTORY
 294.path=www/node_modules/bootstrap/scss/_mixins.scss
@@ -1495,7 +1498,7 @@
 110.set=ASSET
 284.path=www/images/douche.JPG
 190.base=/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/build/intermediates/assets/debug
-455.path=www/node_modules/bootstrap/dist/css/bootstrap.min.css
+455.path=www/node_modules/bootstrap/LICENSE
 205.baseType=DIRECTORY
 233.baseType=DIRECTORY
 15.path=www/node_modules/jquery/dist/core.js
@@ -1519,7 +1522,7 @@
 462.set=ASSET
 180.base=/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/build/intermediates/assets/debug
 274.path=www/images/casser.JPG
-445.path=www/node_modules/jquery/src/css/addGetHookIf.js
+445.path=www/images/écouter musique.JPG
 351.base=/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/build/intermediates/assets/debug
 340.set=ASSET
 90.base=/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/build/intermediates/assets/debug
@@ -1534,7 +1537,7 @@
 38.set=ASSET
 34.baseType=DIRECTORY
 170.base=/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/build/intermediates/assets/debug
-435.path=www/node_modules/bootstrap/scss/_images.scss
+435.path=www/images/julienne.JPG
 341.base=/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/build/intermediates/assets/debug
 0.baseType=DIRECTORY
 12.baseType=DIRECTORY
@@ -1598,13 +1601,13 @@
 41.base=/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/build/intermediates/assets/debug
 164.base=/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/build/intermediates/assets/debug
 258.path=www/node_modules/bootstrap/scss/mixins/_buttons.scss
-429.path=www/node_modules/jquery/src/attributes/val.js
+429.path=www/node_modules/bootstrap/scss/utilities/_position.scss
 99.baseType=DIRECTORY
 74.base=/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/build/intermediates/assets/debug
 169.baseType=DIRECTORY
 147.baseType=DIRECTORY
 175.baseType=DIRECTORY
-count=466
+count=467
 303.baseType=DIRECTORY
 331.baseType=DIRECTORY
 77.set=ASSET
@@ -1666,7 +1669,7 @@ count=466
 35.base=/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/build/intermediates/assets/debug
 137.set=ASSET
 338.base=/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/build/intermediates/assets/debug
-450.path=www/node_modules/bootstrap/scss/mixins/_lists.scss
+450.path=www/node_modules/bootstrap/scss/utilities/_visibility.scss
 435.set=ASSET
 10.path=www/node_modules/bootstrap/dist/js/bootstrap.js
 313.path=www/images/croque monsieur.JPG
@@ -1688,7 +1691,7 @@ count=466
 427.baseType=DIRECTORY
 367.set=ASSET
 455.baseType=DIRECTORY
-440.path=www/node_modules/jquery/src/core/nodeName.js
+440.path=www/package.json
 461.baseType=DIRECTORY
 213.set=ASSET
 168.set=ASSET
@@ -1699,6 +1702,7 @@ count=466
 369.path=www/images/petite assiette.JPG
 358.baseType=DIRECTORY
 105.base=/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/build/intermediates/assets/debug
+466.set=ASSET
 336.baseType=DIRECTORY
 364.baseType=DIRECTORY
 392.baseType=DIRECTORY
@@ -1709,7 +1713,7 @@ count=466
 267.set=ASSET
 145.set=ASSET
 113.path=www/cordova_plugins.js
-463.path=www/node_modules/popper.js/dist/esm/popper.js
+463.path=www/node_modules/bootstrap/scss/_buttons.scss
 239.baseType=DIRECTORY
 267.baseType=DIRECTORY
 23.path=www/cordova-js-src/android/promptbasednativeapi.js
@@ -1760,7 +1764,7 @@ count=466
 401.path=www/images/crêpes fromage.JPG
 352.set=ASSET
 263.path=www/images/choux fleur.JPG
-434.path=www/images/julienne.JPG
+434.path=www/node_modules/popper.js/dist/esm/popper-utils.min.js
 68.baseType=DIRECTORY
 6.baseType=DIRECTORY
 74.baseType=DIRECTORY
@@ -1788,7 +1792,7 @@ count=466
 130.set=ASSET
 175.set=ASSET
 286.path=www/node_modules/jquery/src/var/documentElement.js
-457.path=www/node_modules/bootstrap/dist/css/bootstrap.css
+457.path=www/images/prise de sang.JPG
 149.path=www/node_modules/bootstrap/js/dist/dropdown.js.map
 226.base=/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/build/intermediates/assets/debug
 383.set=ASSET
@@ -1802,7 +1806,7 @@ count=466
 320.base=/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/build/intermediates/assets/debug
 182.base=/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/build/intermediates/assets/debug
 276.path=www/node_modules/bootstrap/js/dist/modal.js
-447.path=www/node_modules/bootstrap/scss/_tooltip.scss
+447.path=www/node_modules/bootstrap/js/dist/button.js
 353.base=/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/build/intermediates/assets/debug
 397.baseType=DIRECTORY
 360.set=ASSET
@@ -1821,7 +1825,7 @@ count=466
 310.base=/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/build/intermediates/assets/debug
 309.set=ASSET
 172.base=/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/build/intermediates/assets/debug
-437.path=www/node_modules/jquery/src/manipulation/setGlobalEval.js
+437.path=www/node_modules/jquery/src/core/parseHTML.js
 343.base=/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/build/intermediates/assets/debug
 260.set=ASSET
 376.base=/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/build/intermediates/assets/debug
