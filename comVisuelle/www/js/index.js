@@ -21,7 +21,8 @@ function check()
 
 function checkDB(tx)
 {
-    tx.executeSql('SELECT * FROM categories;', [], function(tx, result){
+    tx.executeSql('SELECT * FROM categories;', [], function(tx, result)
+    {
         console.log('acces effectue');
         console.log(result.rows[0]);
     });
@@ -32,11 +33,10 @@ function checkDB(tx)
 
 function populateDB(tx)
 {
-    // tx.executeSql('DROP TABLE IF EXISTS categories');
-    tx.executeSql('CREATE TABLE IF NOT EXISTS "categories" ( `category_id` INTEGER PRIMARY KEY AUTOINCREMENT, `category_name` TEXT)');
-    tx.executeSql('INSERT INTO categories (category_id, category_name) VALUES (1, "aliments")');
-    // tx.executeSql('INSERT INTO DEMO (id, data) VALUES (2, "Second row")');
-}
+    tx.executeSql('CREATE TABLE IF NOT EXISTS "pictures" ( `picture_id` INTEGER PRIMARY KEY AUTOINCREMENT, `picture_name` TEXT, `picture_url` TEXT, `created_at` TEXT, `updated_at` TEXT )');
+    tx.executeSql('DROP TABLE IF EXISTS "pictures"');
+    
+    }
 
 
 function errorCB(tx, err)

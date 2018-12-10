@@ -32,9 +32,9 @@ function checkDB(tx)
 
 function populateDB(tx)
 {
-    // tx.executeSql('DROP TABLE IF EXISTS categories');
-    tx.executeSql('CREATE TABLE "categories" ( `category_id` INTEGER PRIMARY KEY AUTOINCREMENT, `category_name` TEXT)');
-    tx.executeSql('INSERT INTO categories (category_id, category_name) VALUES (1, "aliments")');
+    tx.executeSql('DROP TABLE IF EXISTS to_belong');
+    tx.executeSql('CREATE TABLE IF NOT EXISTS "to_belong" ( CREATE TABLE "to_belong" ( `fk_picture` INTEGER, `fk_category` INTEGER, FOREIGN KEY(`fk_picture`) REFERENCES `pictures`(`picture_id`), FOREIGN KEY(`fk_category`) REFERENCES `categories`(`category_id`) )');
+    // tx.executeSql('INSERT INTO categories (category_id, category_name) VALUES (1, "aliments")');
     // tx.executeSql('INSERT INTO DEMO (id, data) VALUES (2, "Second row")');
 }
 
