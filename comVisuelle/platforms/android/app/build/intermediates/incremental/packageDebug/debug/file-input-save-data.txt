@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Dec 12 11:50:28 CET 2018
+#Wed Dec 12 13:42:53 CET 2018
 38.path=www/node_modules/bootstrap/scss/mixins/_list-group.scss
 429.baseType=DIRECTORY
 100.set=ASSET

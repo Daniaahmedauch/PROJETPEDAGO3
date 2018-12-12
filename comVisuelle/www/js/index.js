@@ -2,17 +2,21 @@ document.addEventListener('deviceready', isDbEmpty, false);
 
 var db;
 
-function isDbEmpty(tx)
+function checkDb(tx)
 {
+    var isDbEmpty = true;
     tx.executeSql('SELECT * FROM categories;', [], function(tx, result)
     {
-        console.log(result);
-        console.log(result.length);
-        console.log(result.row);
-        console.log(result.row.length);
-        //if(result)
-        //start();
+        isDbEmpty = false;
+        console.log("je fais la vérification");
+        console.log(isDbEmpty);
     });
+    console.log(isDbEmpty);
+    if(isDbEmpty === true)
+    {
+        console.log(isDbEmpty);
+        db.transaction(populateDB, errorCB, successCB);
+    }
 }
 
 function start()
