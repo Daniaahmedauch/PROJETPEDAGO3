@@ -1,0 +1,33 @@
+{
+    "logs": [
+        {
+<<<<<<< HEAD
+            "outputFile": "/home/adeline/Documents/Simplon/ProjetsAdeline/cantoloupV7/comVisuelle/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "map": [
+                {
+                    "source": "/home/adeline/Documents/Simplon/ProjetsAdeline/cantoloupV7/comVisuelle/platforms/android/app/src/main/res/values/strings.xml",
+=======
+            "outputFile": "/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "map": [
+                {
+                    "source": "/home/nicolas/Documents/simplon/public/comVisuelleJs/comVisuelle/platforms/android/app/src/main/res/values/strings.xml",
+>>>>>>> cbab1f9d33ae62f9849d02ca6963a1e647b05c34
+                    "from": {
+                        "startLines": "4,2,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "164,55,105",
+                        "endColumns": "63,49,58",
+                        "endOffsets": "223,100,159"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,119,169",
+                        "endColumns": "63,49,58",
+                        "endOffsets": "114,164,223"
+                    }
+                }
+            ]
+        }
+    ]
+}
