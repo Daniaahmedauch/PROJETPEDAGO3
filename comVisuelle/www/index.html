@@ -8,60 +8,70 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <!-- link css fancybox -->
     <link rel="stylesheet" href="node_modules/fancybox/dist/css/jquery.fancybox.css" />
-    
+
     <link rel="stylesheet" href="css/index.css">
     <title>Communication visuelle</title>
 </head>
 
 <body>
     <div>
+
         <nav class="navbar navbar-expand-lg navbar-light bg-light" id="fond">
-            
+
             <!-- <a class="navbar-brand" href="#">logo Cantoloup</a> -->
-            
+
             <!-- BOUTON MENU RESPONSIVE -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <button id="admin" class="btn btn-secondary my-2 my-sm-0" type="submit">Admin</button>
-                        <span class="sr-only">(current)</span>
-                    </li>
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <button id="admin" class="btn btn-secondary my-2 my-sm-0" type="submit">Admin</button><span class="sr-only">(current)</span></a>
+                </li>
                 <!-- BOUTON/MENU CATEGORIES -->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
-                        aria-expanded="false">
-                        Catégories
-                        </a>
-                
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                            <a class="dropdown-item" href="#">Separated link</a>
-                        </div>
-                
-                    </li>
-                </ul>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                    Catégories
+                </a>
+
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    <a class="dropdown-item" href="#">Separated link</a>
+                </div>
+
             </div>
-        
-            <div id="search">
-                <form class="form-inline my-2 my-lg-0" >
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" class="btn btn-secondary" type="submit">OK</button>
-                </form>
-            </div>
-        </nav>
-                
+        </li>
+
+
+    </ul>
+    <div id="search">
+
+                    <form class="form-inline my-2 my-lg-0" >
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" class="btn btn-secondary" type="submit">OK</button>
+                    </form>
+</div>
+</nav>
+
+
+
+
+
+
+
+            <!-- AFFICHAGE DES IMAGES -->
+
+
+
         <div id="display"></div>
-        
+
         <button id="orel">YEAHHH</button>
 
 
@@ -75,5 +85,5 @@
     <script type="text/javascript" src="node_modules/fancybox/lib/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="node_modules/jquery-mousewheel-3.0.4.pack.js"></script>
 </body>
-    
+
 </html>
