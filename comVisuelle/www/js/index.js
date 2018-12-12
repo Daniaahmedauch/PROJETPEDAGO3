@@ -1,24 +1,28 @@
-document.addEventListener('deviceready', isDbEmpty, false);
+document.addEventListener('deviceready', start, false);
 
 var db;
 
-function isDbEmpty(tx)
+function checkDb(tx)
 {
+    var isDbEmpty = true;
     tx.executeSql('SELECT * FROM categories;', [], function(tx, result)
     {
-        console.log(result);
-        console.log(result.length);
-        console.log(result.row);
-        console.log(result.row.length);
-        //if(result)
-        //start();
+        isDbEmpty = false;
+        console.log("je fais la vérification");
+        console.log(isDbEmpty);
     });
+    console.log(isDbEmpty);
+    if(isDbEmpty === true)
+    {
+        console.log(isDbEmpty);
+        db.transaction(populateDB, errorCB, successCB);
+    }
 }
 
 function start()
 {
     db = window.openDatabase("database", "1.0", "Cordova Demo", 200000);
-    db.transaction(populateDB, errorCB, successCB);
+    db.transaction(checkDb, errorCB, successCB);
 
     $('#orel').on("click", check);
 }    
@@ -26,10 +30,10 @@ function start()
 function check()
 {
     console.log('essai acces DB');
-    db.transaction(checkDB, errorCB, successCB);
+    db.transaction(checkContent, errorCB, successCB);
 }
 
-function checkDB(tx)
+function checkContent(tx)
 {
     tx.executeSql('SELECT * FROM pictures;', [], function(tx, result)
     {
