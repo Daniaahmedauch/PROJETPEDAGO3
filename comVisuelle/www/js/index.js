@@ -237,3 +237,53 @@ function successCB()
 {
     alert("success!");
 }
+
+
+/************************                     FONCTIONS ADE                   ******************************/
+
+ /**
+ * Fonction événement, click pour intégrer une page html (form_html.html) à la page html par défaut index.html
+ */
+
+$('#admin').on("click", function(){
+    // $('#display').append('<div id="mainForm"><form method="POST" action=""><div><legend id="legende">FORMULAIRE D\'INSERTION</legend></div><div class="form-group"><label for="image">1°) SÉLECTIONNER UNE IMAGE</label><input id="inputFile" type="file" accept=".jpg, .jpeg, .png, .svg" class="form-control-file" aria-describedby="fileHelp"></div><img src="" width="200" style="display:none;"/><div id="displayImagePath"></div><hr><div class="form-group"><label for="tag">2°) SÉLECTIONNER ET/OU CRÉER UN/PLUSIEURS TAGS</label><!-- formulaire select2 --><div><select id="selectTag" class="form-control" multiple="multiple"><option selected="selected" value="orange">Orange</option><option selected="selected" value="white">White</option><option selected="selected" value="brown">Brown</option><option selected="selected" value="purple">Purple</option><option selected="selected" value="grey">Grey</option><option selected="selected" value="black">Black</option><option selected="selected" value="yellow">Yellow</option></select></div><!-- <select class="form-control" id="insertTage"><option value="_">_</option><option value="tag 1">Tag 1</option><option value="tag 2">Tag 2</option><option value="tag 3">Tag 3</option><option value="tag 4">Tag 4</option><option value="tag 5">Tag 5</option></select><button class="btn btn-success" type="button">Insérer</button><input type="text" class="form-control" placeholder="insérer un tag" id="insertTagButton"><button class="btn btn-success" type="button">Insérer</button><textarea class="form-control" id="user_entry" rows="1" placeholder="Vos tags s\'affichent ici"></textarea> --></div><hr><div class="form-group"><label for="categorie">3°) SÉLECTIONNER ET/OU CRÉER UNE CATÉGORIE</label><!-- formulaire select2 --><div><select id="selectCategory" class="form-control" multiple="multiple"><option selected="selected" value="orange">Orange</option><option selected="selected" value="white">White</option><option selected="selected" value="brown">Brown</option><option selected="selected" value="purple">Purple</option><option selected="selected" value="grey">Grey</option><option selected="selected" value="black">Black</option><option selected="selected" value="yellow">Yellow</option></select></div><!-- <select class="form-control" id="insertCategory"><option value="_">_</option><option value="hygiene">Hygiène</option><option value="sante">Santé</option><option value="sport">Sport</option><option value="aliments">Aliments</option><option value="jeux">Jeux</option></select><button class="btn btn-success" type="button">Insérer</button><input type="text" class="form-control" placeholder="Insérer une catégorie" id="insertCategoryButton"><button class="btn btn-success" type="button">Insérer</button><textarea class="form-control" id="user_entry" rows="1" placeholder="Votre catégorie s\'affiche ici"></textarea> --></div><div><button id="confirmButton" type="submit" class="btn btn-success">Enregistrer</button></div></form></div>');
+    // location.href="../form_html.html"; 
+    $('#display').html("");
+    $('#display').append('<iframe width="100%" height="600" sandbox="allow-scripts" seamless src="file:///android_asset/www/form_html.html">Le navigateur n\'est pas compatible></iframe>');
+    // $('#display').append('<iframe width="100%" height="600" sandbox="allow-scripts" seamless src="../form_html.html">Le navigateur n\'est pas compatible></iframe>');
+
+});
+
+/**
+ * Récupérer une image du gestionnaire de fichier de la tablette
+ * 
+ */
+function cameraGetPicture() {
+    navigator.camera.getPicture(onSuccess, onFail, { quality: 50,
+        destinationType: Camera.DestinationType.FILE_URI,
+        sourceType: Camera.PictureSourceType.SAVEDPHOTOALBUM,
+        targetWidth: 100,
+        targetHeight: 100
+    });
+
+    function onSuccess(imageURL) {
+        var image = document.getElementById('myImage');
+        image.src = imageURL;
+    }
+
+    function onFail(message) {
+        alert('Failed because: ' + message);
+    }
+
+}
+
+/**
+ * Fonction événenement, au click, ouverture du gestionnaire de fichiers local
+ */
+
+function onDeviceReady(){
+    // window.requestFileSystem(LocalFileSystem.PERSISTENT, 1024*1024, successCB, errorHandler);
+    $("#inputFile").addEventListener("click", cameraGetPicture);
+}
+
+/*************************************************************************************************************** */
