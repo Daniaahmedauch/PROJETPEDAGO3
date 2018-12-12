@@ -17,16 +17,10 @@
 
 }
 
- #navbar{ 
-<<<<<<< HEAD
+#navbar{ 
         margin: 0 !important;
         width: 100%;
         justify-content: space-between;
-=======
-           margin: 0 !important;
-           width: 100%;
-           justify-content: space-between;
->>>>>>> cbab1f9d33ae62f9849d02ca6963a1e647b05c34
             
         } 
 /* espacement entre les boutons */

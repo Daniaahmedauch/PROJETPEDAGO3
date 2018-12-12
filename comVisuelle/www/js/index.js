@@ -1,8 +1,5 @@
-<<<<<<< HEAD
 // document.addEventListener('deviceready', onDeviceReady, false);
-=======
 document.addEventListener('deviceready', isDbEmpty, false);
->>>>>>> cbab1f9d33ae62f9849d02ca6963a1e647b05c34
 
 var db;
 
